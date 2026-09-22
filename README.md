@@ -264,7 +264,7 @@ The overall confidence is calculated from the average confidence reported by the
 
 ---
 
-# 🔮 Price Prediction
+# Price Prediction
 
 TradeIQ includes an experimental forecasting component based on **Ordinary Least Squares (OLS) linear regression**.
 
