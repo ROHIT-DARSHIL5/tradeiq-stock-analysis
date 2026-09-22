@@ -1,31 +1,31 @@
-# 📈 TradeIQ — AI-Powered Trading Strategy Analysis & Stock Prediction Engine
+# TradeIQ — AI-Powered Trading Strategy Analysis & Stock Prediction Engine
 
 A full-stack stock analysis application that combines **technical-analysis strategies, live-at-runtime market-data retrieval, and linear-regression forecasting** in a Java Spring Boot backend with a responsive browser-based dashboard.
 
 > **Educational project:** TradeIQ is a technical-analysis and software-engineering project. Its BUY/SELL/HOLD outputs and price projections are experimental and are **not financial advice or guaranteed predictions**.
 
----
 
-## ✨ What TradeIQ Does
+
+##  What TradeIQ Does
 
 TradeIQ lets a user enter a stock ticker and receive:
 
-- 📊 Daily historical OHLCV market data
-- 📈 Technical-indicator analysis across **5 independent strategies**
-- 🟢 BUY / 🔴 SELL / 🟡 HOLD signals
-- 🎯 Per-strategy confidence and reasoning
-- 🧮 Majority-vote overall signal aggregation
-- 🔮 7-day and 30-day linear-regression price projections
-- 📐 R² model-fit measurement
-- 📉 Prediction uncertainty bounds
-- 📋 52-week high/low and average-volume metrics
-- 📌 Watchlist summaries
-- 🔎 Multi-stock comparison through the backend API
-- 📊 Interactive Chart.js visualizations
+- Daily historical OHLCV market data
+- Technical-indicator analysis across **5 independent strategies**
+- BUY / SELL / HOLD signals
+- Per-strategy confidence and reasoning
+- Majority-vote overall signal aggregation
+- 7-day and 30-day linear-regression price projections
+- R² model-fit measurement
+- Prediction uncertainty bounds
+- 52-week high/low and average-volume metrics
+- Watchlist summaries
+- Multi-stock comparison through the backend API
+- Interactive Chart.js visualizations
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐
@@ -61,7 +61,7 @@ TradeIQ lets a user enter a stock ticker and receive:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 TradeIQ/
@@ -103,7 +103,7 @@ TradeIQ/
 
 ---
 
-# 📊 Analysis Pipeline
+# Analysis Pipeline
 
 ```text
 Stock Symbol
@@ -141,7 +141,7 @@ Data Parsing & Validation
 
 ---
 
-# 🧠 Trading Strategies
+# Trading Strategies
 
 TradeIQ implements five strategy classes under a common abstract `TradingStrategy` base class.
 
@@ -240,7 +240,7 @@ The implementation uses oscillator levels and `%K/%D` relationships to generate 
 
 ---
 
-# 🧮 Signal Aggregation
+# Signal Aggregation
 
 Instead of relying on one indicator, TradeIQ runs all five strategies and aggregates their outputs.
 
@@ -353,7 +353,7 @@ HDFCBANK.NS
 
 ---
 
-# 🔌 REST API
+# REST API
 
 The Spring Boot backend exposes six REST endpoints.
 
@@ -376,7 +376,7 @@ The response contains market metadata, price history, strategy results, aggregat
 
 ---
 
-# 🖥️ Frontend
+# Frontend
 
 The frontend is implemented as a lightweight single-page application using:
 
@@ -401,7 +401,7 @@ The UI uses a dark trading-terminal style with responsive cards and interactive 
 
 ---
 
-# ☕ Backend
+# Backend
 
 The backend uses:
 
@@ -439,7 +439,7 @@ Yahoo Finance
 
 ---
 
-# 🧩 Design Patterns & OOP Concepts
+# Design Patterns & OOP Concepts
 
 One of the main engineering goals of the backend is to demonstrate object-oriented design rather than placing every strategy in one large class.
 
@@ -501,7 +501,7 @@ Market data is represented through `StockData`, while data-fetching and JSON par
 
 ---
 
-# 🧪 Example Workflow
+# Example Workflow
 
 ```text
 1. User enters AAPL
@@ -527,7 +527,7 @@ Market data is represented through `StockData`, while data-fetching and JSON par
 
 ---
 
-# 🚀 Running Locally
+# Running Locally
 
 ## Requirements
 
@@ -609,7 +609,7 @@ and select **ANALYZE**.
 
 ---
 
-# 📚 Documentation
+# Documentation
 
 A detailed project document is included in:
 
@@ -631,7 +631,7 @@ It contains additional explanations of:
 
 ---
 
-# ⚠️ Limitations
+# Limitations
 
 This project is intentionally educational and has several limitations.
 
@@ -645,7 +645,7 @@ This project is intentionally educational and has several limitations.
 
 ---
 
-# 🔭 Future Improvements
+# Future Improvements
 
 - Add backtesting across historical periods
 - Add transaction-cost modelling
@@ -661,7 +661,7 @@ This project is intentionally educational and has several limitations.
 
 ---
 
-# 👤 Author
+# Author
 
 **Rohit Darshil**
 
