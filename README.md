@@ -31,7 +31,7 @@ TradeIQ lets a user enter a stock ticker and receive:
 ┌──────────────────────────────────────────────────────────────┐
 │                         TradeIQ                              │
 ├──────────────────────────────┬───────────────────────────────┤
-│         FRONTEND             │           BACKEND              │
+│         FRONTEND             │           BACKEND             │
 │                              │                               │
 │ HTML / CSS / JavaScript      │ Java 17 + Spring Boot         │
 │ Chart.js                     │ REST API                      │
@@ -39,7 +39,7 @@ TradeIQ lets a user enter a stock ticker and receive:
 │ Stock Search ───────────────►│ StockController               │
 │ Dashboard ◄──────────────────│       │                       │
 │ Charts                       │       ▼                       │
-│ Strategy Cards               │ AnalysisService              │
+│ Strategy Cards               │ AnalysisService               │
 │ Prediction View              │       │                       │
 │ Watchlist                    │ ┌─────┴───────────────┐       │
 │                              │ ▼                     ▼       │
