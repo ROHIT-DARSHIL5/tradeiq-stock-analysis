@@ -1,7 +1,7 @@
 package com.trading.engine.service;
 
 // ============================================================
-// StockDataService.java — Real-Time Data Fetching Service
+// StockDataService.java — Market Data Fetching Service
 //
 // DATA SOURCE: Yahoo Finance (Unofficial API — free, no key needed)
 //   URL: https://query1.finance.yahoo.com/v8/finance/chart/{symbol}
